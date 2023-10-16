@@ -1,0 +1,39 @@
+/* Trong tệp Create.css hoặc trực tiếp trong tệp Create.js (sử dụng styled-components hoặc emotion) */
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+
+button {
+  background-color: #d11e1e; 
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff9999; 
+}
+
+.link-button {
+  background-color: #ff0000; 
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.link-button:hover {
+  background-color: #ff9999; 
+}
